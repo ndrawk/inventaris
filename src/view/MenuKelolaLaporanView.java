@@ -191,7 +191,7 @@ public class MenuKelolaLaporanView extends javax.swing.JFrame {
     
     public void fillData(ArrayList<Barang> listBarang){
         
-        String columnNames[] = {"Tanggal", "ID BARANG", "NAMA BARANG", "HARGA BARANG" , "LOKASI" ,"STATUS"};
+        String columnNames[] = {"TANGGAL", "ID BARANG", "NAMA BARANG", "HARGA BARANG" , "LOKASI" ,"STATUS"};
         if(!listBarang.isEmpty()){
         
             String data[][] = new String[listBarang.size()][columnNames.length];
